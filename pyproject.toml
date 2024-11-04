@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "nickpypi"
-version = "0.0.3"
+version = "0.0.4"
 description = "My daily functions"
 authors = ["Nick <nick@nicks-technik.de>"]
 license = "GPL"
