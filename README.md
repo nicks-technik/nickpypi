@@ -9,9 +9,10 @@ poetry env info
 poetry add requests
 poetry env listpo
 poetry show
+
+
+poetry shell
 poetry version minor (0.x.0)
 poetry version patch (0.0.x)
-poetry shell
-
 git tag 0.0.1
 git push origin --tags
