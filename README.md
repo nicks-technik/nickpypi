@@ -1,13 +1,16 @@
 # Contains my functions, I use everyday
 
 ## poetry setup
+pip install poetry
+
+poetry new <project_name>
 
 poetry init
 poetry config virtualenvs.in-project true
-poetry install --no-root
 poetry env info
+poetry env list
+poetry install --no-root
 poetry add requests
-poetry env listpo
 poetry show
 
 
